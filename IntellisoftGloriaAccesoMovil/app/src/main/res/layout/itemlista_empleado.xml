@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="5dp"
+    android:id="@+id/itemUserLista"
+    android:layout_marginTop="10dp"
+    android:background="@drawable/border_recycler">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginLeft="16dp">
+
+        <TextView
+            android:id="@+id/txtUser"
+            android:layout_width="180dp"
+            android:layout_height="25dp"
+            android:layout_margin="3dp"
+            android:text="Nombre Usuario"
+            android:textSize="12sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/txtCodInterno"
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="3dp"
+            android:text="APELLIDOPATERNO"
+            android:textSize="12sp" />
+        <TextView
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:text="APELLIDOMATERNO"
+            android:layout_margin="3dp"
+            android:textSize="12sp"
+            android:id="@+id/txtUserSede"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginLeft="30dp"
+        android:gravity="end">
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="N° DOCUMENTO:"
+            android:id="@+id/txtTipoDocumento"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="5dp"
+            android:textSize="12dp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/txtNumDocumento"
+            android:text="N° DOCUMENTO"
+            android:layout_marginTop="30dp"
+            android:textSize="12dp"
+            android:layout_marginBottom="15dp"
+            android:layout_marginRight="1dp"
+            android:layout_marginLeft="10dp"/>
+
+
+    </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
